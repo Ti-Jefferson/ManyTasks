@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="js_g.js"></script>
+    <script src="js_year.js"></script>
+    <script src="js_year_2.js"></script>
+    <script src="js_masiv.js"></script>
+    <script src="js_masiv_2.js"></script>
+    <script src="scetchik.js"></script>
+    <script src="objects.js"></script>
+    <script src="created by ulianov t.js"></script>
+    <title>Основы JavaScript</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Практическая работа по JS 1</h1>
+      <h4>Ниже перечисленны все задачи завершенные в ходе выполения практической работы.</h4>
+      <h4>Нажмите на кнопку "проверить" рядом с заданием для вывода в консоль результата решения.</h4>
+      <h4>Нажмите на само задание, чтобы увидеть его решение.</h4>
+    </div>
+    <div class="taskList">
+      <details>
+        <summary><h2> Группа заданий 1 "Знакомство с консолью"</h2></summary>
+        <div class="taskGroup">
+          <input type="checkbox" id="tsk11" class="hide"/>
+          <label for="tsk11" ><h3> Задание 1.1 "Hello world!" </h3></label>
+          <div class="answer">
+            <img src="media/11.png" alt="Task 1.1"/>
+          </div>
+          <button type="button" class="button" onclick="task(t11);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+        </div>
+      </details>
+      <details>
+        <summary><h2> Группа заданий 2 "Операции с числами" </h2></summary>
+        <div class="taskGroup">
+          <input type="checkbox" id="tsk21" class="hide"/>
+          <label for="tsk21" ><h3> Задание 2.1 "Фильм о русских супергероях"</h3></label>
+          <div class="answer">
+            <img src="media/21.png" alt="Task 2.1"/>
+          </div>
+          <button type="button" class="button" onclick="task(t21);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk22" class="hide"/>
+          <label for="tsk22" ><h3> Задание 2.2 "Программист Иннокентий"</h3></label>
+          <div class="answer">
+            <img src="media/22.png" alt="Task 2.2"/>
+          </div>
+          <button type="button" class="button" onclick="task(t22);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk23" class="hide"/>
+          <label for="tsk23" ><h3> Задание 2.3 "Три верстальщика"</h3></label>
+          <div class="answer">
+            <img src="media/23.png" alt="Task 2.3"/>
+          </div>
+          <button type="button" class="button" onclick="task(t23);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+        </div>
+      </details>
+      <details>
+        <summary><h2> Группа заданий 3 "Работа со строками" </h2></summary>
+        <div class="taskGroup">
+          <input type="checkbox" id="tsk31" class="hide"/>
+          <label for="tsk31" ><h3> Задание 3.1 "Совершенно секретно!"</h3></label>
+          <div class="answer">
+            <img src="media/31.png" alt="Task 3.1"/>
+          </div>
+          <button type="button" class="button" onclick="task(t31);">Проверить</button>
+          <input type="checkbox" id="tsk32" class="hide"/>
+          <label for="tsk32" ><h3> Задание 3.2 "Тип строения"</h3></label>
+          <div class="answer">
+            <img src="media/32.png" alt="Task 3.3"/>
+          </div>
+          <button type="button" class="button" onclick="task(t32);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk33" class="hide"/>
+          <label for="tsk33" ><h3> Задание 3.3 "Мумий Тролль"</h3></label>
+          <div class="answer">
+            <img src="media/33.png" alt="Task 3.3"/>
+          </div>
+          <button type="button" class="button" onclick="task(t33);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk34" class="hide"/>
+          <label for="tsk34" ><h3> Задание 3.4 "Пушкин"</h3></label>
+          <div class="answer">
+            <img src="media/34.png" alt="Task 3.4"/>
+          </div>
+          <button type="button" class="button" onclick="task(t34);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+        </div>
+      </details>
+      <details>
+        <summary><h2> Группа заданий 4 "Переменные" </h2></summary>
+        <div class="taskGroup">
+          <input type="checkbox" id="tsk41" class="hide"/>
+          <label for="tsk41" ><h3> Задание 4.1 "Фаренгейт"</h3></label>
+          <div class="answer">
+            <img src="media/41.png" alt="Task 4.1"/>
+          </div>
+          <button type="button" class="button" onclick="task(t41);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk42" class="hide"/>
+          <label for="tsk42" ><h3> Задание 4.2 "Цельсий"</h3></label>
+          <div class="answer">
+            <img src="media/42.png" alt="Task 4.2"/>
+          </div>
+          <button type="button" class="button" onclick="task(t42);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk43" class="hide"/>
+          <label for="tsk43" ><h3> Задание 4.3 "Определение градусов"</h3></label>
+          <div class="answer">
+            <img src="media/43.png" alt="Task 4.3"/>
+          </div>
+          <button type="button" class="button" onclick="task(t43);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+        </div>
+      </details>
+      <details>
+        <summary><h2> Группа заданий 5 "Логические операции" </h2></summary>
+        <div class="taskGroup">
+          <input type="checkbox" id="tsk51" class="hide"/>
+          <label for="tsk51" ><h3> Задание 5.1 "Все в этом мире - ложь"</h3></label>
+          <div class="answer">
+            <img src="media/51.png" alt="Task 5.1"/>
+          </div>
+          <button type="button" class="button" onclick="task(t51);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk52" class="hide"/>
+          <label for="tsk52" ><h3> Задание 5.2 "Точно високосный?"</h3></label>
+          <div class="answer">
+            <img src="media/52.png" alt="Task 5.2"/>
+          </div>
+          <button type="button" class="button" onclick="task(t52);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk53" class="hide"/>
+          <label for="tsk53" ><h3> Задание 5.3 "Ну теперь точно високосный"</h3></label>
+          <div class="answer">
+            <img src="media/53.png" alt="Task 5.3"/>
+          </div>
+          <button type="button" class="button" onclick="task(t53);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk54" class="hide"/>
+          <label for="tsk54" ><h3> Задание 5.4 "Уверенность в високосности 101%"</h3></label>
+          <div class="answer">
+            <img src="media/54.png" alt="Task 5.4"/>
+          </div>
+          <button type="button" class="button" onclick="task(t54);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+        </div>
+      </details>
+      <details>
+        <summary><h2> Группа заданий 6 "Массивы" </h2></summary>
+        <div class="taskGroup">
+          <input type="checkbox" id="tsk61" class="hide"/>
+          <label for="tsk61" ><h3> Задание 6.1 "План на утро"</h3></label>
+          <div class="answer">
+            <img src="media/61.png" alt="Task 6.1"/>
+          </div>
+          <button type="button" class="button" onclick="task(t61);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk62" class="hide"/>
+          <label for="tsk62" ><h3> Задание 6.2 "План на утро, если проспал"</h3></label>
+          <div class="answer">
+            <img src="media/62.png" alt="Task 6.2"/>
+          </div>
+          <button type="button" class="button" onclick="task(t62);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk63" class="hide"/>
+          <label for="tsk63" ><h3> Задание 6.3 "План на утро, если рано встал"</h3></label>
+          <div class="answer">
+            <img src="media/63.png" alt="Task 6.3"/>
+          </div>
+          <button type="button" class="button" onclick="task(t63);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+        </div>
+      </details>
+      <details>
+        <summary><h2> Группа заданий 7 "Цикл" </h2></summary>
+        <div class="taskGroup">
+          <input type="checkbox" id="tsk71" class="hide"/>
+          <label for="tsk71" ><h3> Задание 7.1 "Всё по порядку"</h3></label>
+          <div class="answer">
+            <img src="media/71.png" alt="Task 7.1"/>
+          </div>
+          <button type="button" class="button" onclick="task(t71);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk72" class="hide"/>
+          <label for="tsk72" ><h3> Задание 7.2 "Ленивое утро"</h3></label>
+          <div class="answer">
+            <img src="media/72.png" alt="Task 7.2"/>
+          </div>
+          <button type="button" class="button" onclick="task(t72);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk73" class="hide"/>
+          <label for="tsk73" ><h3> Задание 7.3 "И снова то же утро, но по другому"</h3></label>
+          <div class="answer">
+            <img src="media/73.png" alt="Task 7.3"/>
+          </div>
+          <button type="button" class="button" onclick="task(t73);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+        </div>
+      </details>
+      <details>
+        <summary><h2> Группа заданий 8 "Функции" </h2></summary>
+        <div class="taskGroup">
+          <input type="checkbox" id="tsk81" class="hide"/>
+          <label for="tsk81" ><h3> Задание 8.1 "Тройной вызов"</h3></label>
+          <div class="answer">
+            <img src="media/81.png" alt="Task 8.1"/>
+          </div>
+          <button type="button" class="button" onclick="task(t81);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk82" class="hide"/>
+          <label for="tsk82" ><h3> Задание 8.2 "И снова високосные года..."</h3></label>
+          <div class="answer">
+            <img src="media/82.png" alt="Task 8.2"/>
+          </div>
+          <button type="button" class="button" onclick="task(t82);">Проверить</button>
+          <h6>Результат работы не выводится в консоль</h6>
+          <input type="checkbox" id="tsk83" class="hide"/>
+          <label for="tsk83" ><h3> Задание 8.3 "Полная проверка високосных годов"</h3></label>
+          <div class="answer">
+            <img src="media/83.png" alt="Task 8.3"/>
+          </div>
+          <button type="button" class="button" onclick="task(t83);">Проверить</button>
+          <h6>Результат работы не выводится в консоль</h6>
+          <input type="checkbox" id="tsk84" class="hide"/>
+          <label for="tsk84" ><h3> Задание 8.4 "Финальный аккорд високосных годов!"</h3></label>
+          <div class="answer">
+            <img src="media/84.png" alt="Task 8.4"/>
+          </div>
+          <button type="button" class="button" onclick="task(t84);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk85" class="hide"/>
+          <label for="tsk85" ><h3> Задание 8.5 "Долой вывод в консоль!"</h3></label>
+          <div class="answer">
+            <img src="media/85.png" alt="Task 8.5"/>
+          </div>
+          <button type="button" class="button" onclick="task(t85);">Проверить</button>
+          <h6>Результат работы не выводится в консоль</h6>
+          <input type="checkbox" id="tsk86" class="hide"/>
+          <label for="tsk86" ><h3> Задание 8.6 "Тройной вызов нам не по карману"</h3></label>
+          <div class="answer">
+            <img src="media/86.png" alt="Task 8.6"/>
+          </div>
+          <button type="button" class="button" onclick="task(t86);">Проверить</button>
+        </div>
+      </details>
+      <details>
+        <summary><h2> Группа заданий 9 "Объекты" </h2></summary>
+        <div class="taskGroup">
+          <input type="checkbox" id="tsk91" class="hide"/>
+          <label for="tsk91" ><h3> Задание 9.1 "Работник месяца"</h3></label>
+          <div class="answer">
+            <img src="media/91.png" alt="Task 9.1"/>
+          </div> 
+          <button type="button" class="button" onclick="task(t91);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk92" class="hide"/>
+          <label for="tsk92" ><h3> Задание 9.2 "Работник года, но проще"</h3></label>
+          <div class="answer">
+            <img src="media/92.png" alt="Task 9.2"/>
+          </div>
+          <button type="button" class="button" onclick="task(t92);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+          <input type="checkbox" id="tsk93" class="hide"/>
+          <label for="tsk93" ><h3> Задание 9.3 "Работник десятилетия, но более универсальное"</h3></label>
+          <div class="answer">
+            <img src="media/93.png" alt="Task 9.3"/>
+          </div>
+          <button type="button" class="button" onclick="task(t93);">Проверить</button>
+          <h5>Нажмите F12 чтобы открыть консоль</h5>
+        </div>
+      </details>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
